@@ -1,0 +1,14 @@
+{
+    "platform": "mac",
+    "jdk": "/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home",
+    "executable": "myapp",
+    "classpath": [
+        "chiron-0.0.1-SNAPSHOT.jar"
+    ],
+    "mainclass": "com.fastcar.chiron.ChironApplication",
+    "vmargs": [
+       "Xmx1G"
+    ],
+    "minimizejre": "soft",
+    "output": "out-mac.app"
+}
